@@ -156,17 +156,12 @@ body{
 .hero{
     width: 100%;
     min-height: 608px;
+    background-image: url('/Assets/Images/hero.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 130px 80px;
     padding-bottom: 0;
-}
-.hero img{
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    transform: translate(-80px, -160px);
 }
 .hero h2{
     font-size: 50px;
