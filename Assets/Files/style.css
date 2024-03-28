@@ -646,6 +646,7 @@ body{
     align-items: center;
     gap: 30px;
     padding: 30px 200px;
+    border-bottom: 1px solid white;
 }
 .footer .footer-row .footer-col:nth-child(1){
     padding: 20px;
@@ -720,6 +721,17 @@ body{
 }
 .footer .footer-row .footer-col input{
     width: 220px;
-    height: 50px;
-    padding: 5px;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.footer .footer-row .footer-col button{
+    background-color: orangered;
+    color: white;
+    width: 75px;
+    height: 55px;
+    border-radius: 6px;
+    font-size: 18px;
+    transform: translate(143px, -57px);
 }
